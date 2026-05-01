@@ -9,26 +9,38 @@ public class BallDragger : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        mass = rb.mass; // Get mass from the Rigidbody component
+        mass = rb.mass;
+    }
+
+    void Update()
+    {
+        // When mouse is released → turn gravity back on
+        if (Input.GetMouseButtonUp(0))
+        {
+            rb.gravityScale = 2f; // you can tweak this (1–3 is good)
+        }
     }
 
     void FixedUpdate()
     {
-        if (Input.GetMouseButton(0)) // While left click is held
+        if (Input.GetMouseButton(0)) // While holding mouse
         {
-            // 1. Get Mouse Position in World Space
+            // Turn OFF gravity while dragging
+            rb.gravityScale = 0f;
+
+            // 1. Get Mouse Position
             Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             mousePos.z = 0;
 
-            // 2. Calculate Direction and Distance
+            // 2. Direction
             Vector2 direction = (Vector2)mousePos - rb.position;
-            
-            // 3. APPLY THE FORMULA: Force = mass * acceleration
-            // We use distance to make the pull stronger the further the mouse is
+
+            // 3. F = m * a (scaled by distance)
             float distance = direction.magnitude;
             float calculatedForce = mass * (acceleration * distance);
 
-            // 4. Apply the calculated force to the ball
+            // 4. Apply force
+            rb.linearVelocity = Vector2.zero;
             rb.AddForce(direction.normalized * calculatedForce);
         }
     }
