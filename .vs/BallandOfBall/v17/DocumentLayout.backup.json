@@ -1,0 +1,74 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GI204\\FinalGI204\\BallandOfBall\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4A6E31E5-F345-08EE-E2A7-B9B4DC2D17D6}|Assembly-CSharp.csproj|D:\\GI204\\FinalGI204\\BallandOfBall\\assets\\scripts\\goal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A6E31E5-F345-08EE-E2A7-B9B4DC2D17D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\goal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A6E31E5-F345-08EE-E2A7-B9B4DC2D17D6}|Assembly-CSharp.csproj|d:\\gi204\\finalgi204\\ballandofball\\assets\\scripts\\balldragger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A6E31E5-F345-08EE-E2A7-B9B4DC2D17D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\balldragger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A6E31E5-F345-08EE-E2A7-B9B4DC2D17D6}|Assembly-CSharp.csproj|D:\\GI204\\FinalGI204\\BallandOfBall\\assets\\scripts\\block.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A6E31E5-F345-08EE-E2A7-B9B4DC2D17D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\block.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BallDragger.cs",
+              "DocumentMoniker": "D:\\GI204\\FinalGI204\\BallandOfBall\\Assets\\Scripts\\BallDragger.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BallDragger.cs",
+              "ToolTip": "D:\\GI204\\FinalGI204\\BallandOfBall\\Assets\\Scripts\\BallDragger.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BallDragger.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAswBMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T14:17:25.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Goal.cs",
+              "DocumentMoniker": "D:\\GI204\\FinalGI204\\BallandOfBall\\Assets\\Scripts\\Goal.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Goal.cs",
+              "ToolTip": "D:\\GI204\\FinalGI204\\BallandOfBall\\Assets\\Scripts\\Goal.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Goal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T14:06:35.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Block.cs",
+              "DocumentMoniker": "D:\\GI204\\FinalGI204\\BallandOfBall\\Assets\\Scripts\\Block.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Block.cs",
+              "ToolTip": "D:\\GI204\\FinalGI204\\BallandOfBall\\Assets\\Scripts\\Block.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Block.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T13:38:35.726Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
