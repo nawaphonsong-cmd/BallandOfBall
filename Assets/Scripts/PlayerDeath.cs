@@ -10,13 +10,19 @@ private void OnCollisionEnter2D(Collision2D collision)
 {
     if (collision.gameObject.CompareTag("DeadlyBox"))
     {
-        deathCount++;
-        hasDied = true;
+       deathCount++;
+       hasDied = true;
 
-        UnityEngine.SceneManagement.SceneManager.LoadScene(
-            UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex
-        );
+       MusicManager.instance.PlayGameOver();
+
+       Invoke("ReloadScene", 1f); // delay so music plays
     }
+}
+void ReloadScene()
+{
+    UnityEngine.SceneManagement.SceneManager.LoadScene(
+        UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex
+    );
 }
     
     

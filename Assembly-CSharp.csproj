@@ -54,6 +54,7 @@
     <Compile Include="Assets\Scripts\BallDragger.cs" />
     <Compile Include="Assets\Scripts\Goal.cs" />
     <Compile Include="Assets\Scripts\ObstacleMover.cs" />
+    <Compile Include="Assets\Scripts\GameOverUI.cs" />
     <Compile Include="Assets\Scripts\DeathCounterUI.cs" />
     <Compile Include="Assets\Scripts\MusicManager.cs" />
     <Compile Include="Assets\Scripts\PlayerDeath.cs" />
